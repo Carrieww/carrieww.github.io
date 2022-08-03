@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      人脸识别原理(以GitHub项目face_recognition为例)
-subtitle:   Face Recognition based on DNN
+title:      Testing
+subtitle:   subtitle
 date:       2019-12-22
-author:     王沛
+author:     Carrie
 header-img: img/lfw.jpg
 catalog: true
 tags:
@@ -12,7 +12,7 @@ tags:
     - Face Recognition
 ---
 
-## 主流人脸识别的原理(以GitHub项目face_recognition为例)   
+## Testing post   
 
 GitHub项目地址[face_recognition](https://github.com/ageitgey/face_recognition)  
 该项目目前star数超过3万，是GitHub上最主流的人脸识别工具包之一。[Face_recognition](https://github.com/ageitgey/face_recognition)主要参考了[OpenFace项目](https://cmusatyalab.github.io/openface/)以及谷歌的[facenet](https://github.com/davidsandberg/facenet)。其主页的介绍如下：
