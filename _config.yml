@@ -3,11 +3,12 @@
 # Site wide configuration
 ####################################
 #
-title: zhujiajun
-email: zhujiajun.me@gmail.com
-description: zhujiajun's blog,powered by jekyll.
-url: https://zjiajun.github.io # the base hostname & protocol for your site
+title: My Personal Website
+email: carrie07@connect.hku.hk
+description: carrie's blog,powered by jekyll.
+url: https://carrieww.github.io # the base hostname & protocol for your site
 keywords: ["jekyll", "java", "scala","blog"]
+github_repo: "https://github.com/carrieww/carrieww.github.io.git"
 
 #
 ###################################
@@ -37,11 +38,11 @@ plugins:
 ####################################
 #
 owner:
-  name: zhujiajun
+  name: WANG Yun - Carrie
   avatar: avatar.jpg
   job: "Java & Scala Developer"
-  bio: "A backend developer who loves design awesome things. Working for Dianping at in Shanghai, China."
-  email: zhujiajun.me@gmail.com
+  bio: "Senior student major in Decision Analytics and Mathematics at the University of Hong Kong."
+  email: carrie07@connect.hku.hk
   disqus-shortname: #username
   twitter:  #username
   facebook: #username
@@ -52,8 +53,8 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: zjiajun #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  github: carrieww #username
+#   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
   xing: #username
   instagram: #username
