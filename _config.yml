@@ -38,10 +38,10 @@ plugins:
 ####################################
 #
 owner:
-  name: 王韵 WANG Yun - Carrie
+  name: "王韵 WANG Yun"
   avatar: Photo_WangYun.jpg
   job: "Mathematics & Decision Analytics | HKU"
-  bio: "xxx"
+  bio: "Just call me Carrie!"
   email: carrie07@connect.hku.hk
   disqus-shortname: #username
   twitter:  #username
