@@ -38,10 +38,10 @@ plugins:
 ####################################
 #
 owner:
-  name: WANG Yun - Carrie
+  name: 王韵 WANG Yun - Carrie
   avatar: Photo_WangYun.jpg
-  job: "Java & Scala Developer"
-  bio: "Senior student major in Decision Analytics and Mathematics at the University of Hong Kong."
+  job: "Mathematics & Decision Analytics | HKU"
+  bio: "xxx"
   email: carrie07@connect.hku.hk
   disqus-shortname: #username
   twitter:  #username
@@ -55,7 +55,7 @@ owner:
   bing-verify:
   github: carrieww #username
 #   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: wang-yun-carrie #username
   xing: #username
   instagram: #username
   lastfm: #username
