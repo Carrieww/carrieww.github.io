@@ -12,7 +12,7 @@ header-img: "img/post-bg-rwd.jpg"
 </select> -->
 
 <!-- Chinese Version -->
-<div class="zh post-container">
+<div class="en post-container">
 
     <!--copied from markdown -->
     <blockquote><p>冰冻三尺 非一日之寒<br>
@@ -20,17 +20,27 @@ header-img: "img/post-bg-rwd.jpg"
 
     <p>Hi My name is <strong>WANG Yun</strong>, or you can call me <strong>Carrie</strong>. I am currently a senior student majoring in Mathematics and Decision Analytics at the University of Hong Kong</p>
 
-    <p>This is my personal website, posting my learning on AI/ML/anything I am interested in, updating my education and career journey.</p>
+    <p>This is my personal website, posting my learning on AI/ML/anything I am interested in. I will also update my education background and career journey.</p>
 
     <p>This website is made by GitHub Pages abd Jekyll. My GitHub 👉 <a href="http://github.com/carrieww">Github·BY</a>.</p>
 
     <p></p>
-    
-    <h5>Talks</h5>
+    <!-- <h5>Talks</h5>
 
     <ul>
         <li><a href="https://github.com">GitHub</a></li>
         <li><a href="http://jekyll.com.cn/">jekyll</a></li>
         <li><a href="https://analytics.google.com/analytics">Google Analytics</a></li>
-    </ul>
+    </ul> -->
+</div>
+
+<div class="navy-line"></div>
+<h1><span data-i18n="skills.my_skills">Education</span></h1>
+
+<div class="archive">
+  <div class="timeline" id="timeline">
+    {% for edu in site.data.index.education %}
+          <div class="archive-title bio"><div class="archive-year"><strong>{{ edu.date }}</strong> <a href="{{ edu.link }}">{{ edu.name }}</a></div></div>
+    {% endfor %}
+  </div>
 </div>
