@@ -1,5 +1,5 @@
 # Site settings
-title: WANGPEI's Blog
+title: WANGYUN's Blog
 SEOTitle: 王韵的博客 | WANGYUN's Blog
 header-img: img/post-bg-desk.jpg
 email: carrie07@hku.hk
@@ -11,8 +11,8 @@ github_repo: "https://github.com/carrieww/carrieww.github.io.git" # you code rep
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "我准备在侧边栏写一句装逼的话，但是写什么还没想好~"
-sidebar-avatar: /img/avatar_binggan.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "可以失败，不可以失志；可以失望，不可以绝望"
+sidebar-avatar: /img/WANGYUN.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
