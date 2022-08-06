@@ -4,7 +4,7 @@ title:      Paper read: "DeepTEA: Effective and Efficient Online Time-dependent 
 subtitle:   A paper In PVLDB 2022.
 date:       2022-08-03
 author:     Yun Wang
-header-img: img/lfw.jpg
+header-img: img/traffic.jpg
 catalog: true
 tags:
     - Urban Computing
