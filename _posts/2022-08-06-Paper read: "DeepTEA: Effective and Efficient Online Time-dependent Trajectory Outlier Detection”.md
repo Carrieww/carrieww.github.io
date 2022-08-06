@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Paper read: "DeepTEA: Effective and Efficient Online Time-dependent Trajectory Outlier Detection"
+title:      Paper read "DeepTEA - Effective and Efficient Online Time-dependent Trajectory Outlier Detection"
 subtitle:   A paper In PVLDB 2022.
 date:       2022-08-03
 author:     Yun Wang
