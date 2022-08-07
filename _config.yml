@@ -14,7 +14,6 @@ linkedin: wang-yun-carrie #username
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "可以失败，不可以失志；可以失望，不可以绝望"
 sidebar-avatar: /img/my_pic.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-sidebar-linkedin: wang-yun-carrie
 
 
 
@@ -22,7 +21,7 @@ sidebar-linkedin: wang-yun-carrie
 RSS: false
 # weibo_username:     暂无
 zhihu_username:     
-github_username:    carrieww
+github_username:  carrieww
 facebook_username:  
 jianshu_username:  
 linkedin_username: wang-yun-carrie
