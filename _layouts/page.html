@@ -196,12 +196,7 @@ layout: default
                                 </a>
                             </li>
                             {% endif %}
-                            
-                        </ul>
-                        {% if site.email %}
-                            <p>✉️ {{site.email}}</p>
-                        {% endif %}
-                        {% if site.cv %}
+                            {% if site.cv %}
                             <li>
                                 <a target="_blank" href="{{ site.cv }}">
                                     <span class="fa-stack fa-lg">
@@ -211,6 +206,11 @@ layout: default
                                 </a>
                             </li>
                             {% endif %}
+                            
+                        </ul>
+                        {% if site.email %}
+                            <p>✉️ {{site.email}}</p>
+                        {% endif %}
                     </div>
                 </section>
                 <!-- Friends Blog -->
