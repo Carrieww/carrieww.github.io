@@ -1,5 +1,5 @@
 # Site settings
-title: (王韵) WANGYUN's Blog
+title: WANGYUN's Blog
 SEOTitle: WANGYUN's Blog
 header-img: img/post-bg-desk.jpg
 email: carrie07@hku.hk
@@ -12,6 +12,7 @@ linkedin: wang-yun-carrie #username
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
+sidebar-description: "Chinese Name: 王韵"
 sidebar-about-description: "可以失败，不可以失志；可以失望，不可以绝望"
 sidebar-avatar: /img/my_pic.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
