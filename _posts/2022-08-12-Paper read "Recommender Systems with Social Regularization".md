@@ -37,32 +37,32 @@ Using social friends network to address/improve recommender systems problem. A r
 #### Model 1: Average-based regularization
 Traditionally, the Singular Value Decomposition (SVD) is to approximate low-rank user and item matrix by minimizing:
 
-$$ \mathcal{L} = \min_{{U,V}} \frac{1}{2}\|\mathcal{R}-{U}^T{V}\|_F^2$$
+$$ \mathcal{L} = \min_{U,V} \frac{1}{2}\|\mathcal{R}-{U}^T{V}\|_F^2$$
 
 However, due to the reason that $\mathcal{R}$ contains a large number of missing values, we only need to factorize the observed ratings in matrix $\mathcal{R}$, hence the loss function becomes:
 
-$$ \mathcal{L} = \min_{{U,V}} \frac{1}{2} \sum_{i=1}^m \sum_{j=1}^n \mathcal{I}_{ij} (\mathcal{R}_{ij}-{U}_i^T{V}_j)^2$$
+$$ \mathcal{L} = \min_{U,V} \frac{1}{2} \sum_{i=1}^m \sum_{j=1}^n \mathcal{I}_{ij} (\mathcal{R}_{ij}-{U}_i^T{V}_j)^2$$
 
 To avoid overfitting, we add regularization terms:
 
-$$\displaystyle \mathcal{L} = \min_{{U,V}} \frac{1}{2} \sum_{i=1}^m \sum_{j=1}^n \mathcal{I}_{ij} (\mathcal{R}_{ij}-{U}_i^T{V}_j)^2 + \frac{\lambda_1}{2}\|{U}\|_F^2 + {\lambda_2}{2}\|{V}\|_F^2$$
+$$ \mathcal{L} = \min_{U,V} \frac{1}{2} \sum_{i=1}^m \sum_{j=1}^n \mathcal{I}_{ij} (\mathcal{R}_{ij}-{U}_i^T{V}_j)^2 + \frac{\lambda_1}{2}\|{U}\|_F^2 + {\lambda_2}{2}\|{V}\|_F^2$$
 
 The optimization problem here minimizes the sum-of-squared-errors objective function with quadratic regularization terms.
 
 Then, based on the assumption that users are affected differently by their friends based on how similar they are. Similar friends will contribute their attributes more to your attributes, while dissimilar friends will contribute less. The loss function is modified to:
 
-$$\displaystyle \mathcal{L} =  \min_{{U,V}} \frac{1}{2} \sum_{i=1}^m \sum_{j=1}^n \mathcal{I}_{ij} (\mathcal{R}_{ij}-{U}_i^T{V}_j)^2 + \frac{\alpha}{2} \sum_{i=1}^m\|{U}_i-\frac{\sum_{f\in\mathcal{F}^+_{i} Sim(i,f)\times {U}_f}}{\sum_{f\in\mathcal{F}^+_{i} Sim(i,f)}}\| + \frac{\lambda_1}{2}\|{U}\|_F^2 + \frac{\lambda_2}{2}\|{V}\|_F^2$$
+$$ \mathcal{L} =  \min_{U,V} \frac{1}{2} \sum_{i=1}^m \sum_{j=1}^n \mathcal{I}_{ij} (\mathcal{R}_{ij}-{U}_i^T{V}_j)^2 + \frac{\alpha}{2} \sum_{i=1}^m\|{U}_i-\frac{\sum_{f\in\mathcal{F}^+_{i} Sim(i,f)\times {U}_f}}{\sum_{f\in\mathcal{F}^+_{i} Sim(i,f)}}\| + \frac{\lambda_1}{2}\|{U}\|_F^2 + \frac{\lambda_2}{2}\|{V}\|_F^2$$
 
 where $\alpha > 0$, $\mathcal{F}^+_i$ is the set of friends of user $u_i$, more specifically, $u_i$'s outlink friends. $u_i$'s inlink friends is represented by $\mathcal{F}^-_i$. $Sim(i,f) \in [0,1]$ is the similarity function to indicate the similarity between $u_i$ and $u_f$. A local minimum of this objective function can be found by performing fradient descent in freature vectors $U_i$ and $V_j$.
 
 #### Model 2: Individual-based Regularization
 However, the above approach is insensitive to those users whose friends have diverse tastes. Because we sum up all friends' attributes with weight being their similarities, if similarity is very diverse, summing up will loss individual information. Therefore, another regularization term can be:
 
-$$\displaystyle \mathcal{L}_2 = \min_{{U,V}} \frac{\beta}{2}\sum_{i=1}^m \sum_{f\in\mathcal{F}^+_i} Sim(i,f) \|U_i-U_j\|_F^2$$
+$$ \mathcal{L}_2 = \min_{U,V} \frac{\beta}{2}\sum_{i=1}^m \sum_{f\in\mathcal{F}^+_i} Sim(i,f) \|U_i-U_j\|_F^2$$
 
 in which a small value of $Sim(i,f)$ indicates that the distance between feature vectors $U_i$ and $U_f$ should be larger, while a large value tells that the diatnce should be smaller. Therefore, the second social recommendation model can be formulated as:
 
-$$\displaystyle \mathcal{L}_2 = \min_{{U,V}} \frac{1}{2} \sum_{i=1}^m \sum_{j=1}^n \mathcal{I}_{ij} (\mathcal{R}_{ij}-{U}_i^T{V}_j)^2 + \frac{\beta}{2}\sum_{i=1}^m \sum_{f\in\mathcal{F}^+_i} Sim(i,f) \|U_i-U_j\|_F^2 + \frac{\lambda_1}{2}\|{U}\|_F^2 + {\lambda_2}{2}\|{V}\|_F^2$$
+$$ \mathcal{L}_2 = \min_{U,V} \frac{1}{2} \sum_{i=1}^m \sum_{j=1}^n \mathcal{I}_{ij} (\mathcal{R}_{ij}-{U}_i^T{V}_j)^2 + \frac{\beta}{2}\sum_{i=1}^m \sum_{f\in\mathcal{F}^+_i} Sim(i,f) \|U_i-U_j\|_F^2 + \frac{\lambda_1}{2}\|{U}\|_F^2 + {\lambda_2}{2}\|{V}\|_F^2$$
 
 Another advantage of this approach is that it indirectly models the propagation of tastes. If $u_i$ is closer to $u_j$ and $u_j$ is closer to $u_k$, even though $u_i$ and $u_k$ are not friends, we actually indirectly minimize the distance between feature vectors $U_i$ and $U_k$.
 
