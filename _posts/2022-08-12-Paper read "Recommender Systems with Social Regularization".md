@@ -37,21 +37,21 @@ Using social friends network to address/improve recommender systems problem. A r
 #### Model 1: Average-based regularization
 Traditionally, the Singular Value Decomposition (SVD) is to approximate low-rank user and item matrix by minimizing:
 
-$$ \mathcal{L} = \min_{U,V} \frac{1}{2}\|\mathcal{R}-{U}^T{V}\|_F^2$$
+$$ \mathcal{L}_1 = \min_{U,V} \frac{1}{2}\|\mathcal{R}-{U}^T{V}\|_F^2$$
 
 However, due to the reason that $\mathcal{R}$ contains a large number of missing values, we only need to factorize the observed ratings in matrix $\mathcal{R}$, hence the loss function becomes:
 
-$$ \mathcal{L} = \min_{U,V} \frac{1}{2} \sum_{i=1}^m \sum_{j=1}^n \mathcal{I}_{ij} (\mathcal{R}_{ij}-{U}_i^T{V}_j)^2$$
+$$ \mathcal{L}_1 = \min_{U,V} \frac{1}{2} \sum_{i=1}^m \sum_{j=1}^n \mathcal{I}_{ij} (\mathcal{R}_{ij}-{U}_i^T{V}_j)^2$$
 
 To avoid overfitting, we add regularization terms:
 
-$$ \mathcal{L} = \min_{U,V} \frac{1}{2} \sum_{i=1}^m \sum_{j=1}^n \mathcal{I}_{ij} (\mathcal{R}_{ij}-{U}_i^T{V}_j)^2 + \frac{\lambda_1}{2}\|{U}\|_F^2 + {\lambda_2}{2}\|{V}\|_F^2$$
+$$ \mathcal{L}_1 = \min_{U,V} \frac{1}{2} \sum_{i=1}^m \sum_{j=1}^n \mathcal{I}_{ij} (\mathcal{R}_{ij}-{U}_i^T{V}_j)^2 + \frac{\lambda_1}{2}\|{U}\|_F^2 + {\lambda_2}{2}\|{V}\|_F^2$$
 
 The optimization problem here minimizes the sum-of-squared-errors objective function with quadratic regularization terms.
 
 Then, based on the assumption that users are affected differently by their friends based on how similar they are. Similar friends will contribute their attributes more to your attributes, while dissimilar friends will contribute less. The loss function is modified to:
 
-$$ \mathcal{L} =  \min_{U,V} \frac{1}{2} \sum_{i=1}^m \sum_{j=1}^n \mathcal{I}_{ij} (\mathcal{R}_{ij}-{U}_i^T{V}_j)^2 + \frac{\alpha}{2} \sum_{i=1}^m\|{U}_i-\frac{\sum_{f\in\mathcal{F}^+_{i} Sim(i,f)\times {U}_f}}{\sum_{f\in\mathcal{F}^+_{i} Sim(i,f)}}\| + \frac{\lambda_1}{2}\|{U}\|_F^2 + \frac{\lambda_2}{2}\|{V}\|_F^2$$
+$$ \mathcal{L}_1 =  \min_{U,V} \frac{1}{2} \sum_{i=1}^m \sum_{j=1}^n \mathcal{I}_{ij} (\mathcal{R}_{ij}-{U}_i^T{V}_j)^2 + \frac{\alpha}{2} \sum_{i=1}^m\|{U}_i-\frac{\sum_{f\in\mathcal{F}^+_{i} Sim(i,f)\times {U}_f}}{\sum_{f\in\mathcal{F}^+_{i} Sim(i,f)}}\| + \frac{\lambda_1}{2}\|{U}\|_F^2 + \frac{\lambda_2}{2}\|{V}\|_F^2$$
 
 where $\alpha > 0$, $\mathcal{F}^+_i$ is the set of friends of user $u_i$, more specifically, $u_i$'s outlink friends. $u_i$'s inlink friends is represented by $\mathcal{F}^-_i$. $Sim(i,f) \in [0,1]$ is the similarity function to indicate the similarity between $u_i$ and $u_f$. A local minimum of this objective function can be found by performing fradient descent in freature vectors $U_i$ and $V_j$.
 
