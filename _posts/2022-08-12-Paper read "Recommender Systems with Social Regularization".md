@@ -2,7 +2,7 @@
 layout:     post
 title:      Paper read "Recommender Systems with Social Regularization"
 subtitle:   Proceedings of the fourth ACM international conference on Web search and data mining in 2011.
-date:       2022-08-012
+date:       2022-08-12
 author:     Yun Wang
 header-img: img/post3_bg.jpg
 catalog: true
