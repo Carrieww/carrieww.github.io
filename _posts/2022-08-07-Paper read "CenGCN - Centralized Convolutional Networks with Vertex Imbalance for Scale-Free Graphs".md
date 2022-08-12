@@ -14,7 +14,7 @@ tags:
 
 ## Paper read "CenGCN - Centralized Convolutional Networks with Vertex Imbalance for Scale-Free Graphs"
 
-[pdf](https://arxiv.org/pdf/2202.07826.pdf)is here.
+[pdf](https://arxiv.org/pdf/2202.07826.pdf) is here.
 
 This paper is by Feng Xia, Lei Wang, Tao Tang, Xin Chen, Xiangjie Kong, Giles Oatley, and Irwin King. The work is to study the vertex imbalance problem in scale-free graphs using centrality, random ralk similarity, and hub attention mechanism on conventional GCN.
 

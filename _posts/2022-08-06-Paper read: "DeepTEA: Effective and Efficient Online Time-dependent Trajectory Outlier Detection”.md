@@ -15,7 +15,7 @@ tags:
 
 ## Paper read: "DeepTEA: Effective and Efficient Online Time-dependent Trajectory Outlier Detection"
 
-[pdf](https://www.vldb.org/pvldb/vol15/p1493-han.pdf )is here.
+[pdf](https://www.vldb.org/pvldb/vol15/p1493-han.pdf) is here.
 
 This paper is by Xiaolin Han, Reynold Cheng, Chenhao Ma, Tobias Grubenmann from HKU and University of Bonn. The work is to study anomalous trajectory detection, which aims to extract abnormal movements of vehicles on the roads. 
 
