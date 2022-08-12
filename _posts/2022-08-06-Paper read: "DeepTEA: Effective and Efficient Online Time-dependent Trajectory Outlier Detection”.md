@@ -36,15 +36,15 @@ Time-dependent solutions are few, all considering different factors that affect 
 
 ### Methodology
 #### Latent Traffic Pattern Inference
-Given Z_{ti}, which is an average speed matrix covering the moving condition of the whole city at ti, we perform CNN on it, to alleviate traffic scarcity issue and get latent representation of each area in a city at ti
+Given $Z_{ti}$, which is an average speed matrix covering the moving condition of the whole city at ti, we perform CNN on it, to alleviate traffic scarcity issue and get latent representation of each area in a city at ti
 Then, we perform RNN on the time series of latent representations of the whole city to learn traffic transition as time changes. The set of parameters in RNN is used to capture latent traffic pattern z
 
 #### Latent Time-dependent Route Inference
 **Inference network: to infer latent time-dependent route r from observations o(p_{ti},z) of trajectory T**
-Given trajectory T, we not only know location p_{ti}, but also the latent traffic pattern z. Therefore, given T, we can infer latent time-dependent route r, route type k, Latent traffic pattern z through a inference network.
+Given trajectory T, we not only know location $p_{ti}$, but also the latent traffic pattern z. Therefore, given T, we can infer latent time-dependent route r, route type k, Latent traffic pattern z through a inference network.
 
 #### Trajectory Observation Generation
-Based on inferred latent time-dependent route r, route type k, and latent traffic pattern z, maximize the probability of generating trajectory observation o(p_{ti},z), which is position and latent traffic pattern z.
+Based on inferred latent time-dependent route r, route type k, and latent traffic pattern z, maximize the probability of generating trajectory observation o($p_{ti}$,z), which is position and latent traffic pattern z.
 
 
 ### reference
