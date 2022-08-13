@@ -2,7 +2,7 @@
 layout:     post
 title:      Paper read "ARES - Locally Adaptive Reconstruction-based Anomaly Scoring"
 subtitle:   ArXiv preprint in 2022.
-date:       2022-08-12
+date:       2022-08-13
 author:     Yun Wang
 header-img: img/post5_bg.jpg
 catalog: true
