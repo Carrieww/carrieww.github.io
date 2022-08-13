@@ -7,7 +7,7 @@ author:     Yun Wang
 header-img: img/post2_bg.jpg
 catalog: true
 tags:
-    - GCN
+    - GNN
     - Vertex Imbalance
     - Scale-Free Graphs
 ---
