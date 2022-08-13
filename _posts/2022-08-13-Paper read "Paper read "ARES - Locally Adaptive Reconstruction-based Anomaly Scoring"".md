@@ -87,7 +87,8 @@ $$d(x)=-\log{P(z;\Theta)}$$
 
 The distribution $P$ need not be normalized. As LOF is an unnormalized score which is similarly locally adaptive, this paper uses LOF in experiments to calculate local density score.
 
-Hence, the overall anomaly score for sample $x$ is;
+Hence, the overall anomaly score for sample $x$ is：
+
 $$s(x)=r(x)+\alpha d(x)$$
 
 where $\alpha$ is used to balance the relative magnitudes of the two scores.
