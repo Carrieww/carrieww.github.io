@@ -4,7 +4,7 @@ title:      Paper read "Lunar - Unifying local outlier detection methods via gra
 subtitle:   Proceedings of the AAAI Conference on Artificial Intelligence in 2022.
 date:       2022-08-13
 author:     Yun Wang
-header-img: img/post6_bg.jpg
+header-img: img/post6_bg_new.jpg
 catalog: true
 tags:
     - GNN
