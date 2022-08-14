@@ -31,23 +31,19 @@ With the emergence of the IoT, networked sensors and actuators in Cyber-Physical
 
 ### Related Work
 **Four categories of unsupervised detection methods:**
-1. **Linear model-based methods**
-**Principal Component Analysis (PCA)** and **Partial Least Square (PLS)** are techniques that reduce the number of explanatory variables to a smaller set of uncorrelated variables. They are used to overcome the problem of collinearity in linear regression and in cases where we have more explanatory variables than observations. PCA uses eigenvalues to find out weights of combined explanatory variables. The weights are optimized to explain as much variance as possible. The problem with PCA is that it does not use dependent variables. PLS computes weights of combined explanatory variables by also maximizing the prediction of dependent variable.
+**Linear model-based methods:** **Principal Component Analysis (PCA)** and **Partial Least Square (PLS)** are techniques that reduce the number of explanatory variables to a smaller set of uncorrelated variables. They are used to overcome the problem of collinearity in linear regression and in cases where we have more explanatory variables than observations. PCA uses eigenvalues to find out weights of combined explanatory variables. The weights are optimized to explain as much variance as possible. The problem with PCA is that it does not use dependent variables. PLS computes weights of combined explanatory variables by also maximizing the prediction of dependent variable.
 
 However, they are only effective for highly correlated data, and require the data to follow multivariate Gaussian distribution.
 
-2. **Distance-based methods**
-KNN, LOF... 
+**Distance-based methods:** KNN, LOF... 
 
 However, these distance-based methods perform better with priori knowledge about anomaly durations and the number of anomalies.
 
-3. **Probabilistic and density estimation-based methods**
-They are improvements of distance-based methods by paying more attention to the data distributions. 
+**Probabilistic and density estimation-based methods:** They are improvements of distance-based methods by paying more attention to the data distributions. 
 
 However, these methods are unable to take into consideration the temporal correlation along time steps, and thus do not work well for multivariate time series data.
 
-4. **Deep learning-based methods**
-Auto-Encoder,LSTM Encoder-Decoder...
+**Deep learning-based methods:** Auto-Encoder,LSTM Encoder-Decoder...
 
 ### Methodology
 #### MAD-GAN Architecture
