@@ -48,7 +48,7 @@ $$\max_{G_S} MI(Y,(G_S,X_S))=H(Y)-H(Y|G=G_S,X=X_S)$$
 
 $MI$ quantifies the change in the probability of prediction $\hat{y}=\Phi(G_c,X_c)$ when $v$’s computation graph is limited to explanation subgraph $G_S$ and its node features are limited to $X_S$. For example, consider the situation where $v_j \in G_c(v_i)$, $v_j \neq v_i$. Then, if removing $v_j$ from $G_c(v_i)$ strongly decreases the probability of prediction $\hat{y}_i$, the node $v_j$ is a good counterfactual explanation for the prediction at $v_i$.
 
-Since the netropy term $H(Y)$ is constant because $\Phi$ is fixed for a trained GNN. The optimization problem is equivalent to minimizing conditional entropy $H(Y|G=G_S,X=X_S)$, which can be expressed as follows:
+Since the entropy term $H(Y)$ is constant because $\Phi$ is fixed for a trained GNN. The optimization problem is equivalent to minimizing conditional entropy $H(Y\mid G=G_S,X=X_S)$, which can be expressed as follows:
 
 $$H(Y|G=G_S,X=X_S) = -\mathbb{E}_{Y|G_S,X_S}[\log{P_{\Phi}(Y|G=G_S,X=X_S)}]$$
 
