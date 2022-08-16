@@ -53,11 +53,12 @@ Conventional reconstruction error with the same error threshold invokes the impl
 #### Demostrate homoscedasticity assumption is invalid
 
 ![MNIST](/img/post5_MNIST.png)  
-1. **Inter-class valriation:** Within the normal set, we can observe separate classes. The class label can be seen as a variable characteristic between different samples.
-2. **Intra-class variation:** Within any single cluster, there is significant variation. Therefore there are noticeably distinct regions of high and low reconstruction errors within each individual cluster. Hence, there exists additional characteristics which influence whether a given normal sample has a high or low reconstruction error besides class label.
+1.**Inter-class valriation:** Within the normal set, we can observe separate classes. The class label can be seen as a variable characteristic between different samples.
+2.**Intra-class variation:** Within any single cluster, there is significant variation. Therefore there are noticeably distinct regions of high and low reconstruction errors within each individual cluster. Hence, there exists additional characteristics which influence whether a given normal sample has a high or low reconstruction error besides class label.
 
 ![NeighborhoodError](/img/post5_NeighborhoodError.png)  
-3. **Neighborhood correlation:** The variance in test errors increases for larger neighbourhood errors: a clear heteroscedastic relationship. This information is useful in determining anomalousness: a test error of 0.1 would be anomalously high if its neighbourhood error is 0.02, but normal if it is 0.06.
+
+3.**Neighborhood correlation:** The variance in test errors increases for larger neighbourhood errors: a clear heteroscedastic relationship. This information is useful in determining anomalousness: a test error of 0.1 would be anomalously high if its neighbourhood error is 0.02, but normal if it is 0.06.
 
 Therefore, ARES aims to address flaw (a fixed Gaussian with constant mean and variance is inapproriate) by adapting the coring for each samples local context in the latent space.
 
@@ -76,11 +77,12 @@ $$r(x)=-\log P(\epsilon|z)$$
 However, given $z$, we cannot calculate the likelihood. Instead, we consider the $k$ nearest neighbors of $z$ in the latent space, denoted $N_k(z)$ to represent the sample population which $z$ belongs to.
 
 The idea is to measure the difference between the test points reconstruction error and the median reconstruction error of its neighboring samples. (For testing samples $x$, we still find its neighbours in training set.) The median is used because it was found to perform better than the mean as it is more robust to extrema. The larger the difference between them, the more outlying the test point is in comparison to its local neighbours, therefore the more likely it is to be anomalous. Therefore, the local reconstruction score is:
+
 $$r(x)=\|x-\hat{x}\|^2_2-\text{median}_{\mathbf{n} \in N_k(z)}(\|\mathbf{n}-\mathbf{\hat{n}}\|^2_2)$$
 
 ![Algo](/img/post5_Algo.png)  
 
-#### Local Density Score
+##### Local Density Score
 The local density score is the likelihood of observing the given encoding in the latent space. Any multivariate distribution P, with trainable parameters Θ, could be used to estimate this density:
 
 $$d(x)=-\log{P(z;\Theta)}$$
