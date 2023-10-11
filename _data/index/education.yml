@@ -1,12 +1,19 @@
-- name: The University of Hong Kong
-  link: http://www.hku.hk/
-  date: 2023 Sep - 2027 Jun (Expected)
-  role: Ph.D in CS
-- name: The University of Hong Kong
-  link: http://www.hku.hk/
-  date: 2018 Sep - 2023 Jan
-  role: B.Sc in Math and DA
-- name: Institute of Mathematical Science (NUS)
-  link: http://www.nus.edu.sg/
-  date: 2022 Jun to 2022 Aug
-  role: Student Summer Researcher
+- name: "The University of Hong Kong"
+  link: "http://www.hku.hk/"
+  date: "2023 Sep - 2027 Jun (Expected)"
+  role: "Ph.D in CS"
+  description: >
+    Research Project: Recommendation Engine for Elderly Care.
+
+- name: "The University of Hong Kong"
+  link: "http://www.hku.hk/"
+  date: "2018 Sep - 2023 Jan"
+  role: "B.Sc in Math and DA"
+  description: >
+    Research Project: Crop Future Price Prediction with 3D-CNN; Video Emotion Detection with Transformer.
+- name: "Institute of Mathematical Science (NUS)"
+  link: "http://www.nus.edu.sg/"
+  date: "2022 Jun to 2022 Aug"
+  role: "Student Summer Researcher"
+  description: >
+    Research Project: Fraudulent Transaction Detection in Heterogeneous Graphs.
