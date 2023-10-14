@@ -1,14 +1,14 @@
 {
     "name": "wp-blog",
     "title": "WP Blog",
-    "author": "WP <im.wangpei@outlook.com>",
+    "author": "WP <wangyun20002017@outlook.com>",
     "version": "1.7.0",
-    "homepage": "http://xiaokeai18.github.io",
+    "homepage": "http://carrieww.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/xiaokeai18/xiaokeai18.github.io"
+        "url": "https://github.com/Carrieww/carrieww.github.io"
     },
-    "bugs": "https://github.com/xiaokeai18/xiaokeai18.github.io/issues",
+    "bugs": "https://github.com/Carrieww/carrieww.github.io/issues",
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-less": "~0.11.4",
