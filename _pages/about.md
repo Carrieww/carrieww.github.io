@@ -21,25 +21,39 @@ redirect_from:
 
 <p>I graduated with a first-class honours degree in Mathematics and Decision Analytics from the <a href="https://www.hku.hk/">University of Hong Kong</a>. My graduation project was supervised by <a href="https://saasweb.hku.hk/staff/adelalau/">Dr. Adela Lau</a> from the Department of Statistics and Actuarial Science. Additionally, I participated in the 2022 <a href="https://ims.nus.edu.sg/events/rips2022/">RIPS program</a> organized by <a href="https://ims.nus.edu.sg/">NUS IMS</a>, where I conducted research with <a href="https://www.grab.com/sg/">Grab</a>.</p>
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 🔥 News 
+- *2024.06*: &nbsp;🎉🎉 Our first graph hypothesis testing paper is accepted by VLDB 2024. 
+- *2024.03*: &nbsp;🎉🎉 One demo paper is accepted by WWW 2024.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2024</div><img src='images/hincare.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+HINCare: An Intelligent Helper Recommender System for Elderly Care
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Carrie Wang**, Wentao Ning, Xiaoman Wu, Reynold Cheng
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[//]: # ([**Project**]&#40;https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC&#41; <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>)
+
+[//]: # (- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VLDB 2024</div><img src='images/framework.pdf' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+A Sampling-based Framework for Hypothesis Testing on Large Attributed Graphs
+
+**Yun Wang**, Chrysanthi Kosyfaki, Sihem Amer-Yahia, Reynold Cheng
+
+[//]: # ([**Project**]&#40;https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC&#41; <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>)
+
+[//]: # (- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
+</div>
+</div>
+
+[//]: # (- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet]&#40;https://github.com&#41;, A, B, C, **CVPR 2020**)
 
 # 🎖 Honors and Awards
 - *2023-2027* HKU Postgraduate Scholarship

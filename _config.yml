@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Carrie Wang's HomePage"
-description              : "description"
+description              : "PhD in HKU CS. Focusing on Graph Hypothesis Testing"
 repository               : "carrieww/carriewang.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Carrie Wang"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "I work at xxx"
+  bio              : "HKU CS"
   location         : "Hong Kong SAR, China"
   employer         :
   pubmed           : 
