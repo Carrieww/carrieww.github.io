@@ -40,7 +40,7 @@ HINCare: An Intelligent Helper Recommender System for Elderly Care
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VLDB 2024</div><img src='images/framework.pdf' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VLDB 2024</div><img src='images/framework.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 A Sampling-based Framework for Hypothesis Testing on Large Attributed Graphs
@@ -63,17 +63,20 @@ A Sampling-based Framework for Hypothesis Testing on Large Attributed Graphs
 - *2018-2019* Dean’s Honors List
 - *2016-2018* First prize in the MOMENTUM Social Innovation Contest 
 
-# 📖 Educations
+# 📖 Education
 - *2023.08 - 2027.06 (now)*, PhD, The University of Hong Kong, Hong Kong.
 - *2018.09 - 2023.01*, Undergraduate, Department of Statistics and Actuarial Science, The University of Hong Kong, Hong Kong.
 - *2015.01 - 2018.06*, Cambridge International Exam Center in Shanghai Experimental School, Shanghai. 
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+[//]: # (# 💬 Invited Talks)
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+[//]: # (- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
+
+[//]: # (- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]]&#40;https://github.com/&#41;)
+
+[//]: # (# 💻 Internship)
+
+[//]: # (- *2019.05 - 2020.02*, [Lorem]&#40;https://github.com/&#41;, China.)
 
 # 👩‍🏫 Teaching
 - *Fall 2024*: Introduction to Database Management Systems
