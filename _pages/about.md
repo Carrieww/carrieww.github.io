@@ -53,7 +53,7 @@ A Sampling-based Framework for Hypothesis Testing on Large Attributed Graphs
 </div>
 </div>
 
-[//]: # (- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet]&#40;https://github.com&#41;, A, B, C, **CVPR 2020**)
+- <code class="language-plaintext highlighter-rouge">Knowledge-Based Systems</code> [Using a novel clustered 3D-CNN model for improving crop future price prediction](https://www.sciencedirect.com/science/article/pii/S0950705122012291), Liege Cheung, Yun Wang, Adela S M Lau, Rogers M C Chan
 
 # 🎖 Honors and Awards
 - *2023-2027* HKU Postgraduate Scholarship
