@@ -25,14 +25,13 @@ redirect_from:
 - *2024.06*: &nbsp;🎉🎉 Our first graph hypothesis testing paper is accepted by VLDB 2024. 
 - *2024.03*: &nbsp;🎉🎉 One demo paper is accepted by WWW 2024.
 
-# 📝 Publications 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2024</div><img src='images/hincare.png' alt="sym" width="100%"></div></div>
+# 📝 Publications
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VLDB 2024</div><img src='images/framework.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-HINCare: An Intelligent Helper Recommender System for Elderly Care
+A Sampling-based Framework for Hypothesis Testing on Large Attributed Graphs
 
-**Carrie Wang**, Wentao Ning, Xiaoman Wu, Reynold Cheng
+**Yun Wang**, Chrysanthi Kosyfaki, Sihem Amer-Yahia, Reynold Cheng
 
 [//]: # ([**Project**]&#40;https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC&#41; <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>)
 
@@ -40,12 +39,12 @@ HINCare: An Intelligent Helper Recommender System for Elderly Care
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VLDB 2024</div><img src='images/framework.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2024</div><img src='images/hincare.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-A Sampling-based Framework for Hypothesis Testing on Large Attributed Graphs
+HINCare: An Intelligent Helper Recommender System for Elderly Care
 
-**Yun Wang**, Chrysanthi Kosyfaki, Sihem Amer-Yahia, Reynold Cheng
+**Carrie Wang**, Wentao Ning, Xiaoman Wu, Reynold Cheng
 
 [//]: # ([**Project**]&#40;https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC&#41; <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>)
 
