@@ -52,7 +52,8 @@ HINCare: An Intelligent Helper Recommender System for Elderly Care
 </div>
 </div>
 
-- <code class="language-plaintext highlighter-rouge">Knowledge-Based Systems</code> [Using a novel clustered 3D-CNN model for improving crop future price prediction](https://www.sciencedirect.com/science/article/pii/S0950705122012291), Liege Cheung, Yun Wang, Adela S M Lau, Rogers M C Chan
+- <code class="language-plaintext highlighter-rouge">CITERS 2023</code> [Algorithms for Enabling and Verifying Upskilling](), Sihem Amer-Yahia, Reynold Cheng, Nassim Bouarour, **Carrie Wang**
+- <code class="language-plaintext highlighter-rouge">Knowledge-Based Systems</code> [Using a novel clustered 3D-CNN model for improving crop future price prediction](https://www.sciencedirect.com/science/article/pii/S0950705122012291), Liege Cheung, **Yun Wang**, Adela S M Lau, Rogers M C Chan
 
 # 🎖 Honors and Awards
 - *2023-2027* HKU Postgraduate Scholarship
