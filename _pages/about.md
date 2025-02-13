@@ -17,13 +17,14 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<p>I am a first-year PhD student in the Department of Computer Science at the <a href="https://www.hku.hk/">University of Hong Kong (HKU)</a>, supervised by <a href="https://www.reynold.hku.hk/">Prof. Reynold Cheng</a>. I also work closely with <a href="https://en.wikipedia.org/wiki/Sihem_Amer-Yahia">Prof. Sihem Amer-Yahia</a> from the <a href="https://www.cnrs.fr/en">CNRS</a> and <a href="https://www.cs.ubc.ca/~laks/">Prof. Laks V.S. Lakshmanan</a> from <a href="https://www.ubc.ca/">UBC</a>. My research focuses on Graph Hypothesis Testing, and I have a strong interest in exploring various graph-related problems. I am open to research cooperation and welcome any collaboration invitations via <a href="mailto:carrie07@connect.hku.hk">email</a>.</p>
+<p>I am a second-year PhD student in the Department of Computer Science at the <a href="https://www.hku.hk/">University of Hong Kong (HKU)</a>, supervised by <a href="https://www.reynold.hku.hk/">Prof. Reynold Cheng</a>. I also work closely with <a href="https://en.wikipedia.org/wiki/Sihem_Amer-Yahia">Prof. Sihem Amer-Yahia</a> from the <a href="https://www.cnrs.fr/en">CNRS</a> and <a href="https://www.cs.ubc.ca/~laks/">Prof. Laks V.S. Lakshmanan</a> from <a href="https://www.ubc.ca/">UBC</a>. My research focuses on Graph Hypothesis Testing, and I have a strong interest in exploring various graph-related problems. I am open to research cooperation and welcome any collaboration invitations via <a href="mailto:carrie07@connect.hku.hk">email</a>.</p>
 
 <p>I graduated with a first-class honours degree in Mathematics and Decision Analytics from the <a href="https://www.hku.hk/">University of Hong Kong</a>. My graduation project was supervised by <a href="https://saasweb.hku.hk/staff/adelalau/">Dr. Adela Lau</a> from the Department of Statistics and Actuarial Science. Additionally, I participated in the 2022 <a href="https://ims.nus.edu.sg/events/rips2022/">RIPS program</a> organized by <a href="https://ims.nus.edu.sg/">NUS IMS</a>, where I conducted research with <a href="https://www.grab.com/sg/">Grab</a>.</p>
 
 # 🔥 News 
 - *2024.06*: &nbsp;🎉🎉 Our first graph hypothesis testing paper is accepted by VLDB 2024. 
-- *2024.03*: &nbsp;🎉🎉 One demo paper is accepted by WWW 2024.
+- *2024.03*: &nbsp;🎉🎉 One demo paper about AI for social science is accepted by WWW 2024.
+- *2023.05*: &nbsp;🎉🎉 One paper presentation about AI for education is accepted by CITERS 2023.
 
 # 📝 Publications
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">VLDB 2024</div><img src='images/framework.png' alt="sym" width="100%"></div></div>
