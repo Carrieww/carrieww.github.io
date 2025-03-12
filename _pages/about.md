@@ -19,7 +19,7 @@ redirect_from:
 
 <p>I am a second-year PhD student in the School of Computing and Data Science (HKUCDS) at the <a href="https://www.hku.hk/">University of Hong Kong (HKU)</a>, supervised by <a href="https://www.reynold.hku.hk/">Prof. Reynold Cheng</a>. I also work closely with <a href="https://en.wikipedia.org/wiki/Sihem_Amer-Yahia">Prof. Sihem Amer-Yahia</a> from the <a href="https://www.cnrs.fr/en">CNRS</a> and <a href="https://www.cs.ubc.ca/~laks/">Prof. Laks V.S. Lakshmanan</a> from <a href="https://www.ubc.ca/">UBC</a>. My research focuses on Graph Analytics and Machine Learning Inference, and I have a strong interest in exploring various interdisciplinary DB problems. I am open to research cooperation and welcome any collaboration invitation via <a href="mailto:carrie07@connect.hku.hk">email</a>.</p>
 
-<p>I graduated with a first-class honours degree with two majors in Mathematics and Decision Analytics from the <a href="https://www.hku.hk/">HKU</a>. My graduation project was supervised by <a href="https://saasweb.hku.hk/staff/adelalau/">Dr. Adela Lau</a> from the Department of Statistics and Actuarial Science. Additionally, I participated in the 2022 <a href="https://ims.nus.edu.sg/events/rips2022/">RIPS program</a> organized by <a href="https://ims.nus.edu.sg/">NUS IMS</a>, where I conducted research with <a href="https://www.grab.com/sg/">Grab</a>.</p>
+<p>I graduated with a first-class honors degree with two majors in Mathematics and Decision Analytics from the <a href="https://www.hku.hk/">HKU</a>. My graduation project was supervised by <a href="https://saasweb.hku.hk/staff/adelalau/">Dr. Adela Lau</a> from the Department of Statistics and Actuarial Science. Additionally, I participated in the 2022 <a href="https://ims.nus.edu.sg/events/rips2022/">RIPS program</a> organized by <a href="https://ims.nus.edu.sg/">NUS IMS</a>, where I conducted research with <a href="https://www.grab.com/sg/">Grab</a>.</p>
 
 # 🔥 News 
 - *2024.06*: &nbsp;🎉🎉 Our first graph hypothesis testing paper is accepted by VLDB 2024. 
@@ -56,18 +56,40 @@ HINCare: An Intelligent Helper Recommender System for Elderly Care
 - <code class="language-plaintext highlighter-rouge">CITERS 2023</code> [Algorithms for Enabling and Verifying Upskilling](), Sihem Amer-Yahia, Reynold Cheng, Nassim Bouarour, **Carrie Wang**
 - <code class="language-plaintext highlighter-rouge">Knowledge-Based Systems</code> [Using a novel clustered 3D-CNN model for improving crop future price prediction](https://www.sciencedirect.com/science/article/pii/S0950705122012291), Liege Cheung, **Yun Wang**, Adela S M Lau, Rogers M C Chan
 
-# 🎖 Honors and Awards
-- *2023-2027* HKU Postgraduate Scholarship
-- *2021-2022* Dean’s Honors List
-- *2020-2021* Yu Kam Tim Chan Siu Hing Award in Artificial Intelligence and Data Science
-- *2018-2022* HKU Foundation Entrance Scholarship
-- *2018-2019* Dean’s Honors List
-- *2016-2018* First prize in the MOMENTUM Social Innovation Contest 
-
 # 📖 Education
-- *2023.08 - 2027.06 (now)*, PhD, The University of Hong Kong, Hong Kong.
-- *2018.09 - 2023.01*, Undergraduate, Department of Statistics and Actuarial Science, The University of Hong Kong, Hong Kong.
-- *2015.01 - 2018.06*, Cambridge International Exam Center in Shanghai Experimental School, Shanghai. 
+
+- 2023.09 - 2027.08 (Expected), **Ph.D. in Computer Science**, School of Computing and Data Science, HKU.
+
+- 2018.09 - 2023.01, **B.Sc. in Mathematics and Decision Analytics**, School of Computing and Data Science, HKU.
+
+- 2015.01 - 2018.06, **5 A*s in GCE A-Level**, Cambridge International Exam Center in Shanghai Experimental School, Shanghai. 
+
+
+# 🎖 Honors and Awards
+<ul>
+  <li><div style="display: flex;"><div style="width: 100px;">2023 - 2027</div><div>HKU Postgraduate Scholarship</div></div></li>
+  <li><div style="display: flex;"><div style="width: 100px;">2023</div><div>First Class Honors</div></div></li>
+  <li><div style="display: flex;"><div style="width: 100px;">2020 - 2021</div><div>Yu Kam Tim Chan Siu Hing Award in Artificial Intelligence and Data Science</div></div></li>
+  <li><div style="display: flex;"><div style="width: 100px;">2018 - 2022</div><div>HKU Foundation Entrance Scholarship</div></div></li>
+  <li><div style="display: flex;"><div style="width: 100px;">2019 & 2022</div><div>Dean’s Honors List</div></div></li>
+  <li><div style="display: flex;"><div style="width: 100px;">2017 - 2018</div><div>First prize in the MOMENTUM Social Innovation Contest</div></div></li>
+</ul>
+
+[//]: # (# 🎖 Honors and Awards)
+
+[//]: # (- *2023 - 2027* HKU Postgraduate Scholarship)
+
+[//]: # (- *2023* Dean’s Honors List)
+
+[//]: # (- *2020 - 2021* Yu Kam Tim Chan Siu Hing Award in Artificial Intelligence and Data Science)
+
+[//]: # (- *2018 - 2022* HKU Foundation Entrance Scholarship)
+
+[//]: # (- *2019 & 2022* Dean’s Honors List)
+
+[//]: # (- *2017 - 2018* First prize in the MOMENTUM Social Innovation Contest )
+
+[//]: # ()
 
 [//]: # (# 💬 Invited Talks)
 
@@ -80,6 +102,8 @@ HINCare: An Intelligent Helper Recommender System for Elderly Care
 [//]: # (- *2019.05 - 2020.02*, [Lorem]&#40;https://github.com/&#41;, China.)
 
 # 👩‍🏫 Teaching
-- *Fall 2024*: Introduction to Database Management Systems
-- *Spring 2024*: Big Data Management
-- *Fall 2020*: Probability and Statistics I
+<ul>
+  <li><div style="display: flex;"><div style="width: 100px;">Fall 2024</div><div>Introduction to Database Management Systems (TA)</div></div></li>
+  <li><div style="display: flex;"><div style="width: 100px;">Spring 2024</div><div>Big Data Management (TA)</div></div></li>
+  <li><div style="display: flex;"><div style="width: 100px;">Fall 2020</div><div>Probability and Statistics I (TA)</div></div></li>
+</ul>
