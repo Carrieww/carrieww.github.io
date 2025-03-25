@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<p>I am a 2-year Ph.D. student in the <strong><a href="https://cds.hku.hk/">School of Computing and Data Science (HKUCDS)</a></strong> at the <strong><a href="https://www.hku.hk/">University of Hong Kong (HKU)</a></strong>, where I am fortunate to be advised by <strong><a href="https://www.reynold.hku.hk/">Prof. Reynold Cheng</a></strong>. My research lies at the intersection of <strong>Graph Analytics</strong> and <strong>Approximate Statistical Inference</strong>, with a broader interest in tackling interdisciplinary database problems. I actively collaborate with renowned researchers, including <strong><a href="https://en.wikipedia.org/wiki/Sihem_Amer-Yahia">Prof. Sihem Amer-Yahia</a></strong> (CNRS) and <strong><a href="https://www.cs.ubc.ca/~laks/">Prof. Laks V.S. Lakshmanan</a></strong> (UBC). I am always open to exploring new research ideas and collaborations, so feel free to reach out via <strong><a href="mailto:carrie07@connect.hku.hk">email</a></strong> if you're interested in working together.</p>
+<p>I am a 2-year Ph.D. student in the <strong><a href="https://cds.hku.hk/">School of Computing and Data Science (HKUCDS)</a></strong> at the <strong><a href="https://www.hku.hk/">University of Hong Kong (HKU)</a></strong>, where I am fortunate to be advised by <strong><a href="https://www.reynold.hku.hk/">Prof. Reynold Cheng</a></strong>. My research lies at the intersection of <strong>Data Management</strong>, <strong>Graph Analytics</strong> and <strong>Approximate Statistical Inference</strong>, with a broader interest in tackling interdisciplinary database problems. I actively collaborate with renowned researchers, including <strong><a href="https://en.wikipedia.org/wiki/Sihem_Amer-Yahia">Prof. Sihem Amer-Yahia</a></strong> (CNRS) and <strong><a href="https://www.cs.ubc.ca/~laks/">Prof. Laks V.S. Lakshmanan</a></strong> (UBC). I am always open to exploring new research ideas and collaborations, so feel free to reach out via <strong><a href="mailto:carrie07@connect.hku.hk">email</a></strong> if you're interested in working together.</p>
 
 <p>I hold a 1st class honors B.Sc. degree in <strong>Mathematics</strong> and <strong>Decision Analytics</strong> from HKU. My undergraduate thesis was supervised by <strong><a href="https://saasweb.hku.hk/staff/adelalau/">Dr. Adela Lau</a></strong> from HKUCDS, where I developed a strong foundation in CNN and its downstream applications in crop price forecasting. Beyond academia, I expanded my research horizons through the <strong><a href="https://ims.nus.edu.sg/events/rips2022/">2022 RIPS Program</a></strong> at <strong><a href="https://ims.nus.edu.sg/">NUS IMS</a></strong>, where I collaborated with <strong><a href="https://www.grab.com/sg/">Grab</a></strong> on fraud detection using GNNs. These experiences have shaped my passion for leveraging data-driven methodologies to solve complex challenges.</p>
 
@@ -30,7 +30,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">VLDB 2024</div><img src='images/framework.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-A Sampling-based Framework for Hypothesis Testing on Large Attributed Graphs
+[A Sampling-based Framework for Hypothesis Testing on Large Attributed Graphs](https://arxiv.org/pdf/2403.13286)
 
 **Yun Wang**, Chrysanthi Kosyfaki, Sihem Amer-Yahia, Reynold Cheng
 
@@ -43,7 +43,7 @@ A Sampling-based Framework for Hypothesis Testing on Large Attributed Graphs
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2024</div><img src='images/hincare.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-HINCare: An Intelligent Helper Recommender System for Elderly Care
+[HINCare: An Intelligent Helper Recommender System for Elderly Care](files/WWW2024-HINCare.pdf)
 
 **Carrie Wang**, Wentao Ning, Xiaoman Wu, Reynold Cheng
 
