@@ -3,4 +3,15 @@ _site/
 .idea/
 *.swp
 *.swo
+*.log
+node_modules/
+vendor/
+.env
+.env.local
+.env.*.local
+*.log
+*.tmp
+*.temp
+.cache/
+.temp/
 
