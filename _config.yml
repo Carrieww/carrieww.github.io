@@ -136,7 +136,13 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: default
+      layout: single
+      author_profile: true
+  # blog page specifically
+  - scope:
+      path: "_pages/blog.md"
+    values:
+      layout: single
       author_profile: true
 
 
