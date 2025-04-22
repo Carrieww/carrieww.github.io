@@ -4,18 +4,149 @@
   {% assign teaser = site.teaser %}
 {% endif %}
 
-<div class="{{ include.type | default: 'list' }}__item">
+<div class="blog-card__content">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <h2 class="archive__item-title" itemprop="headline">
+    {% if post.categories %}
+      <div class="blog-card__categories">
+        {% for category in post.categories %}
+          <span class="category-tag">{{ category }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <h2 class="blog-card__title" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a href="{{ post.link }}">{{ title }}</a>
+        <a href="{{ post.url | relative_url }}" rel="permalink">
+          <i class="fas fa-link" aria-hidden="true" title="permalink"></i>
+          <span class="sr-only">Permalink</span>
+        </a>
       {% else %}
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
       {% endif %}
     </h2>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+
+    {% if post.excerpt %}
+      <p class="blog-card__excerpt" itemprop="description">
+        {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
+      </p>
     {% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+
+    <div class="blog-card__meta">
+      <div class="meta__left">
+        {% if post.date %}
+          <span class="meta__date">
+            <i class="far fa-calendar-alt" aria-hidden="true"></i>
+            {{ post.date | date: "%B %d, %Y" }}
+          </span>
+        {% endif %}
+        {% if post.read_time %}
+          <span class="meta__time">
+            <i class="far fa-clock" aria-hidden="true"></i>
+            {% include read-time.html %}
+          </span>
+        {% endif %}
+      </div>
+      {% if post.tags %}
+        <div class="meta__tags">
+          {% for tag in post.tags limit:3 %}
+            <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
   </article>
-</div> 
+</div>
+
+<style>
+.blog-card__content {
+  padding: 1.5rem;
+  transition: transform 0.2s ease;
+}
+
+.blog-card__content:hover {
+  transform: translateY(-2px);
+}
+
+.blog-card__categories {
+  margin-bottom: 0.8rem;
+}
+
+.category-tag {
+  background-color: #f0f0f0;
+  color: #666;
+  padding: 0.2rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+}
+
+.blog-card__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+  line-height: 1.3;
+}
+
+.blog-card__title a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.blog-card__title a:hover {
+  color: #0366d6;
+}
+
+.blog-card__excerpt {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0.8rem 0;
+}
+
+.blog-card__meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.meta__left {
+  display: flex;
+  gap: 1rem;
+}
+
+.meta__date, .meta__time {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.meta__tags {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.tag {
+  background-color: #e1e4e8;
+  color: #666;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .blog-card__meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .meta__tags {
+    margin-top: 0.5rem;
+  }
+}
+</style> 
