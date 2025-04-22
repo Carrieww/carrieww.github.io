@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: archive
 title: "Blog"
 permalink: /blog/
 author_profile: true
@@ -15,8 +15,9 @@ author_profile: true
 
 <style>
 .blog-list {
-  width: 100%;
-  padding: 1rem 0;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
 }
 
 .blog-card {
@@ -29,6 +30,12 @@ author_profile: true
 
 .blog-card:hover {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .blog-list {
+    padding: 1rem;
+  }
 }
 
 .blog-card h2 {
