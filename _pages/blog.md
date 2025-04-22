@@ -1,16 +1,16 @@
 ---
+layout: archive
 title: "Blog"
-layout: single
 permalink: /blog/
 author_profile: true
 ---
 
 <div class="blog-list">
-  {% for post in site.posts %}
-    <div class="blog-card">
-      {% include archive-single.html %}
-    </div>
-  {% endfor %}
+{% for post in site.posts %}
+  <div class="blog-card">
+    {% include archive-single.html %}
+  </div>
+{% endfor %}
 </div>
 
 <style>

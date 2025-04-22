@@ -131,18 +131,13 @@ defaults:
       comments: true
       share: true
       related: true
-      show_date: true
-      header:
-        show_overlay_excerpt: true
   # _pages
   - scope:
       path: ""
       type: pages
     values:
-      layout: single
+      layout: default
       author_profile: true
-      header:
-        show_overlay_excerpt: true
 
 
 # Sass/SCSS

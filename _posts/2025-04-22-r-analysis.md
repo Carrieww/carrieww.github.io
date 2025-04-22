@@ -1,13 +1,7 @@
 ---
 title: 'GWAS Analysis using hierGWAS'
-date: 2024-03-27
-permalink: /posts/2024/03/gwas-analysis/
-layout: single
-author_profile: true
-read_time: true
-comments: true
-share: true
-related: true
+date: 2025-04-22
+permalink: /posts/2025/04/gwas-analysis/
 categories:
   - Research Notes
 tags:
@@ -19,6 +13,11 @@ header:
   overlay_color: "#333"
   overlay_filter: 0.5
 excerpt: "A beginner-friendly guide to Genome-Wide Association Studies using hierGWAS package."
+layout: single
+author_profile: true
+read_time: true
+share: true
+related: true
 ---
 
 ## Introduction
