@@ -1,5 +1,5 @@
 ---
-layout: archive
+# layout: archive
 title: "Blog"
 permalink: /blog/
 author_profile: true
@@ -26,6 +26,7 @@ author_profile: true
   border-radius: 8px;
   margin-bottom: 1.5rem;
   transition: box-shadow 0.2s ease;
+  cursor: pointer;
 }
 
 .blog-card:hover {

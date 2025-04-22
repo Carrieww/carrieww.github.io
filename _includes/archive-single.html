@@ -4,7 +4,7 @@
   {% assign teaser = site.teaser %}
 {% endif %}
 
-<div class="blog-card__content">
+<div class="blog-card__content" onclick="window.location.href='{{ post.url | relative_url }}'">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if post.categories %}
       <div class="blog-card__categories">
