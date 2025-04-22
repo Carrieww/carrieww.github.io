@@ -1,75 +1,33 @@
 ---
-title: 'Exploring Genome-Wide Association Studies with hierGWAS: A Comprehensive Analysis'
+title: 'GWAS Analysis using hierGWAS'
 date: 2024-03-27
 permalink: /posts/2024/03/gwas-analysis/
+layout: single
+author_profile: true
+read_time: true
+comments: true
+share: true
+related: true
 categories:
-  - Research
-  - Data Analysis
+  - Research Notes
 tags:
   - R
   - GWAS
   - Bioinformatics
   - Statistical Analysis
-  - Genomics
 header:
   overlay_color: "#333"
   overlay_filter: 0.5
-excerpt: "A deep dive into Genome-Wide Association Studies using the hierarchical approach with hierGWAS, exploring genetic associations and their statistical significance."
+excerpt: "A beginner-friendly guide to Genome-Wide Association Studies using hierGWAS package."
 ---
 
 ## Introduction
 
-Genome-Wide Association Studies (GWAS) have revolutionized our understanding of genetic variations and their associations with complex traits. In this analysis, I explore the hierarchical approach using the hierGWAS framework, which offers a more structured and efficient way to analyze genetic associations.
+This notebook is a personal note I made when I first started learning GWAS. It's designed for beginners who are starting to explore GWAS or just getting into related research.
 
-## Key Objectives
+Since real GWAS datasets often are with restricted access because of the inclusion of raw genotypes and individual phenotypes, the **`hierGWAS`** package provides an example **toy dataset** called `simGWAS`, which is perfect for learning and practicing GWAS analysis.
 
-- Implement hierarchical analysis in GWAS
-- Evaluate genetic associations with complex traits
-- Assess statistical significance and effect sizes
-- Visualize genomic data and results
-
-## Methodology
-
-The analysis employs the hierGWAS approach, which incorporates hierarchical structures in genetic data to improve statistical power and reduce false positives. This method is particularly effective when dealing with large-scale genomic datasets.
-
-## Analysis Overview
-
-The complete analysis includes:
-- Data preprocessing and quality control
-- Implementation of hierarchical models
-- Statistical analysis and testing
-- Visualization of results
-- Interpretation and findings
-
-## Detailed Results
-
-For the complete analysis, including interactive visualizations, detailed methodology, and comprehensive results, please view the full R Markdown document:
+For the complete analysis with step-by-step instructions, code implementations, and visualizations, please check out the full notebook:
 
 [View Complete GWAS Analysis →]({{ site.baseurl }}/assets/notes/GWAS_using_hierGWAS.html)
 {: .text-center .notice--info}
-
-## Key Findings
-
-1. Identification of significant genetic associations
-2. Evaluation of hierarchical structures in genomic data
-3. Assessment of statistical power and efficiency
-4. Comparison with traditional GWAS approaches
-
-## Technical Details
-
-This analysis was conducted using:
-- R Statistical Software
-- hierGWAS package
-- Bioconductor tools
-- Custom visualization scripts
-
-## Future Directions
-
-The findings from this analysis open up several avenues for future research:
-- Extension to other genomic datasets
-- Integration with other statistical methods
-- Application to specific disease studies
-
----
-
-*This analysis is part of ongoing research in statistical genetics and bioinformatics. For questions or collaborations, please [contact me](mailto:{{ site.author.email }}).*
