@@ -1,5 +1,10 @@
 # main links links
 main:
+  - title: "About"
+    url: /
+  - title: "Notes"
+    url: /notes/
+
   - title: "About Me"
     url: "/#about-me"
 
