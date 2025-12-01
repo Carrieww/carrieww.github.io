@@ -32,7 +32,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGMOD 2026</div><img src='images/AQNN_framework.pdf' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[On Efficient Approximate Aggregate Nearest Neighbor Queries over Learned Representations](files/AQNN_paper.pdf)
+[On Efficient Approximate Aggregate Nearest Neighbor Queries over Learned Representations](https://drive.google.com/file/d/1ox_pAltmT6lRWA0vmw3WgiIczdhmCw_X/view?usp=sharing)
 
 **Carrie Wang**, Sihem Amer-Yahia, Laks V. S. Lakshmanan, Reynold Cheng
 
@@ -58,7 +58,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2024</div><img src='images/hincare.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[HINCare: An Intelligent Helper Recommender System for Elderly Care](files/WWW2024-HINCare.pdf)
+[HINCare: An Intelligent Helper Recommender System for Elderly Care](https://drive.google.com/file/d/1J1ooY5JpTMjgA2TYr1-Kyl1bg8UUcx9G/view?usp=sharing)
 
 **Carrie Wang**, Wentao Ning, Xiaoman Wu, Reynold Cheng
 
