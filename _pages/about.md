@@ -29,7 +29,7 @@ redirect_from:
 - *2023.05*: &nbsp;🎉🎉 Our paper about AI for education is accepted by CITERS 2023.
 
 # 📝 Publications
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGMOD 2026</div><img src='images/AQNN_framework.pdf' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGMOD 2026</div><img src='images/AQNN_framework.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [On Efficient Approximate Aggregate Nearest Neighbor Queries over Learned Representations](https://drive.google.com/file/d/1ox_pAltmT6lRWA0vmw3WgiIczdhmCw_X/view?usp=sharing)
