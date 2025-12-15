@@ -17,6 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# 🙋‍♀️ About Me
 
 <p>
 Hello! I am a third-year Ph.D. student in the 
@@ -31,8 +32,7 @@ advised by <strong><a href="https://www.reynold.hku.hk/">Prof. Reynold Cheng</a>
   color: #444;
   font-style: italic;
 ">
-<strong>Research Interest: building resource-aware intelligent data systems that enable reliable querying and decision-making under (1) limited data access,
-(2) imperfect data representations, and (3) expensive computation.</strong>
+<strong>Research Interest:</strong> building resource-aware intelligent data systems that enable reliable querying and decision-making under different types of resource constraints: (1) limited data access, (2) imperfect data representations, and (3) expensive computation.
 </blockquote>
 
 <p>
@@ -41,8 +41,6 @@ I actively collaborate with renowned researchers including
 and <strong><a href="https://www.cs.ubc.ca/~laks/">Prof. Laks V.S. Lakshmanan</a></strong> (UBC),
 and I am always open to discussing new research ideas and collaborations.
 Feel free to reach out via <strong><a href="mailto:carrie07@connect.hku.hk">email</a></strong>.
-</p>
-
 </p>
 
 <p>
@@ -140,10 +138,11 @@ statistical testing on large attributed graphs under strict data access budgets.
 
 - **Research Intern**, Huawei Hong Kong Research Center (HKRC), 2012 Laboratory  
   *Jun 2025 – Oct 2025*  
-  Research on data management and intelligent data systems.
+  Research on probabilistic user behavior modeling and spoof fingerprint detection.
 
 - **Participant**, The 6th ACM Europe Summer School on Data Science  
-  *Jun 2025*
+  *Jun 2025*  
+  Best Lightning Talk Award (Top 4/42).
 
 # 👩‍🏫 Teaching Experience
 <ul>
