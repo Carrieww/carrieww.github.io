@@ -17,42 +17,109 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<p>Hello! I am a third-year Ph.D. student in the <strong><a href="https://cds.hku.hk/">School of Computing and Data Science (HKU-CDS)</a></strong> at the <strong><a href="https://www.hku.hk/">University of Hong Kong (HKU)</a></strong>, where I am fortunate to be advised by <strong><a href="https://www.reynold.hku.hk/">Prof. Reynold Cheng</a></strong>. My research lies at the intersection of <strong>Graph Analytics</strong>, <strong>Approximate Query Answering</strong>, and <strong>LLMs for data exploration</strong>, with a broader interest in tackling interdisciplinary database problems. I actively collaborate with renowned researchers, including <strong><a href="https://en.wikipedia.org/wiki/Sihem_Amer-Yahia">Prof. Sihem Amer-Yahia</a></strong> (CNRS) and <strong><a href="https://www.cs.ubc.ca/~laks/">Prof. Laks V.S. Lakshmanan</a></strong> (UBC). I am always open to exploring new research ideas and collaborations, so feel free to reach out via <strong><a href="mailto:carrie07@connect.hku.hk">email</a></strong> if you're interested in working together.</p>
 
-<p>I hold a 1st class honors B.Sc. degree in <strong>Mathematics</strong> and <strong>Decision Analytics</strong> from HKU. My undergraduate thesis was supervised by <strong><a href="https://saasweb.hku.hk/staff/adelalau/">Dr. Adela Lau</a></strong> from HKU-CDS, where I developed a strong foundation in CNN and its downstream applications in crop price forecasting. Beyond academia, I expanded my research horizons through internships at Huawei Hong Kong Research Center (HKRC) and research programs, like <strong><a href="https://ims.nus.edu.sg/events/rips2022/">2022 RIPS Program</a></strong> at <strong><a href="https://ims.nus.edu.sg/">NUS Institude of Mathematical Science</a></strong>, where I collaborated with <strong><a href="https://www.grab.com/sg/">Grab</a></strong> on fraud detection using GNNs. These experiences have shaped my passion for leveraging data-driven methodologies to solve real-world complex challenges.</p>
+<p>
+Hello! I am a third-year Ph.D. student in the 
+<strong><a href="https://cds.hku.hk/">School of Computing and Data Science (HKU-CDS)</a></strong> 
+at the <strong><a href="https://www.hku.hk/">University of Hong Kong (HKU)</a></strong>, 
+advised by <strong><a href="https://www.reynold.hku.hk/">Prof. Reynold Cheng</a></strong>.</p>
 
-# 🔥 News 
-- *2024.09*: &nbsp;🎉🎉 Our paper about Aggregate Queries over Nearest Neighbors is accepted by SIGMOD 2026. 
-- *2025.06*: &nbsp;🎉🎉 Our GRF proposal about graph hypothesis testing paper is approved! 
-- *2024.06*: &nbsp;🎉🎉 Our graph hypothesis testing paper is accepted by VLDB 2024. 
-- *2024.03*: &nbsp;🎉🎉 One demo paper about recommendation systems for social science is accepted by WWW 2024.
-- *2023.05*: &nbsp;🎉🎉 Our paper about AI for education is accepted by CITERS 2023.
+<blockquote style="
+  border-left: 4px solid #ccc;
+  margin: 1.2em 0;
+  padding: 0.6em 1em;
+  color: #444;
+  font-style: italic;
+">
+<strong>Research Interest: building resource-aware intelligent data systems that enable reliable querying and decision-making under (1) limited data access,
+(2) imperfect data representations, and (3) expensive computation.</strong>
+</blockquote>
+
+<p>
+I actively collaborate with renowned researchers including 
+<strong><a href="https://en.wikipedia.org/wiki/Sihem_Amer-Yahia">Prof. Sihem Amer-Yahia</a></strong> (CNRS) 
+and <strong><a href="https://www.cs.ubc.ca/~laks/">Prof. Laks V.S. Lakshmanan</a></strong> (UBC),
+and I am always open to discussing new research ideas and collaborations.
+Feel free to reach out via <strong><a href="mailto:carrie07@connect.hku.hk">email</a></strong>.
+</p>
+
+</p>
+
+<p>
+I hold a first-class honors B.Sc. degree in <strong>Mathematics</strong> and
+<strong>Decision Analytics</strong> from HKU.
+My undergraduate thesis, supervised by 
+<strong><a href="https://saasweb.hku.hk/staff/adelalau/">Dr. Adela Lau</a></strong>,
+established my foundation in machine learning and representation learning.
+I further broadened my research experience through internships and research programs,
+including the <strong><a href="https://ims.nus.edu.sg/events/rips2022/">2022 RIPS Program</a></strong>
+at <strong><a href="https://ims.nus.edu.sg/">NUS Institute of Mathematical Sciences</a></strong>,
+where I collaborated with <strong><a href="https://www.grab.com/sg/">Grab</a></strong>
+on graph-based fraud detection.
+</p>
+
+# 🔥 News
+- **2025.11**: &nbsp;🎉🎉 Research paper accepted at **SIGMOD 2026**.
+- **2025.06**: GRF proposal funded (Graph Hypothesis Testing).
+- **2024.06**: Research paper accepted at **VLDB 2024**.
+- **2024.03**: Demo paper accepted at **WWW 2024**.
+- **2023.05**: Paper accepted at **CITERS 2023** (AI for Education).
 
 # 📝 Publications
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGMOD 2026</div><img src='images/AQNN_framework.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+My publications focus on reliable querying and decision-making, spanning from different types of resource constraints, including limited data access,
+imperfect data representations, and expensive computation.
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">SIGMOD 2026 (to appear)</div>
+      <img src='images/AQNN_framework.png' alt="sym" width="100%">
+    </div>
+  </div>
+
+  <div class='paper-box-text' markdown="1">
 
 [On Efficient Approximate Aggregate Nearest Neighbor Queries over Learned Representations](https://drive.google.com/file/d/1ox_pAltmT6lRWA0vmw3WgiIczdhmCw_X/view?usp=sharing)
 
-**Carrie Wang**, Sihem Amer-Yahia, Laks V. S. Lakshmanan, Reynold Cheng
+**Carrie Wang**, Sihem Amer-Yahia, Laks V. S. Lakshmanan, Reynold Cheng  
 
-[//]: # ([**Project**]&#40;https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC&#41; <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>)
+[[Code]](https://github.com/Carrieww/AQNNs)
 
-[//]: # (- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
+<em>
+Increasingly, modern data systems rely on learned representations that are approximate, noisy, or heterogeneous in quality. This work studies how to answer aggregate queries accurately and efficiently when data representations are unreliable, by selectively combining cheap proxy models with expensive oracle computations.
+</em>
+
+ </div>
 </div>
-</div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VLDB 2024</div><img src='images/GHT_framework.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">VLDB 2024</div>
+      <img src='images/GHT_framework.png' alt="sym" width="100%">
+    </div>
+  </div>
+
+  <div class='paper-box-text' markdown="1">
 
 [A Sampling-based Framework for Hypothesis Testing on Large Attributed Graphs](https://arxiv.org/pdf/2403.13286)
 
-**Carrie Wang**, Chrysanthi Kosyfaki, Sihem Amer-Yahia, Reynold Cheng
+**Carrie Wang**, Chrysanthi Kosyfaki, Sihem Amer-Yahia, Reynold Cheng  
 
-[//]: # ([**Project**]&#40;https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC&#41; <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>)
+[[Website]](https://carrieww.github.io/GraphHT/)
+&nbsp;|&nbsp;
+[[Code]](https://github.com/Carrieww/GraphHT)
 
-[//]: # (- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
-</div>
+
+<em>
+Large-scale graph analytics often require testing complex hypotheses over enormous
+numbers of structural instances, making exhaustive enumeration infeasible.
+This work develops a hypothesis-aware sampling framework that enables reliable
+statistical testing on large attributed graphs under strict data access budgets.
+</em>
+
+  </div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2024</div><img src='images/hincare.png' alt="sym" width="100%"></div></div>
@@ -62,49 +129,94 @@ redirect_from:
 
 **Carrie Wang**, Wentao Ning, Xiaoman Wu, Reynold Cheng
 
-[//]: # ([**Project**]&#40;https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC&#41; <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>)
-
-[//]: # (- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
 </div>
 </div>
 
 - <code class="language-plaintext highlighter-rouge">CITERS 2023</code> [Algorithms for Enabling and Verifying Upskilling](), Sihem Amer-Yahia, Reynold Cheng, Nassim Bouarour, **Carrie Wang**
-- <code class="language-plaintext highlighter-rouge">Knowledge-Based Systems</code> [Using a novel clustered 3D-CNN model for improving crop future price prediction](https://www.sciencedirect.com/science/article/pii/S0950705122012291), Liege Cheung, **Yun Wang**, Adela S M Lau, Rogers M C Chan
+- <code class="language-plaintext highlighter-rouge">Knowledge-Based Systems 2023</code> [Using a novel clustered 3D-CNN model for improving crop future price prediction](https://www.sciencedirect.com/science/article/pii/S0950705122012291), Liege Cheung, **Carrie Wang**, Adela S M Lau, Rogers M C Chan
+
+
+# 💻 Research Experience
+
+- **Research Intern**, Huawei Hong Kong Research Center (HKRC), 2012 Laboratory  
+  *Jun 2025 – Oct 2025*  
+  Research on data management and intelligent data systems.
+
+- **Participant**, The 6th ACM Europe Summer School on Data Science  
+  *Jun 2025*
+
+# 👩‍🏫 Teaching Experience
+<ul>
+  <li>
+    <div style="display: flex;">
+      <div style="width: 110px;">Fall 2024</div>
+      <div><strong>Teaching Assistant</strong>, Introduction to Database Management Systems</div>
+    </div>
+  </li>
+  <li>
+    <div style="display: flex;">
+      <div style="width: 110px;">Spring 2024</div>
+      <div><strong>Teaching Assistant</strong>, Big Data Management</div>
+    </div>
+  </li>
+  <li>
+    <div style="display: flex;">
+      <div style="width: 110px;">Fall 2020</div>
+      <div><strong>Teaching Assistant</strong>, Probability and Statistics I</div>
+    </div>
+  </li>
+</ul>
 
 # 📖 Education
+- **Ph.D. in Computer Science**, School of Computing and Data Science, HKU  
+  *2023.09 – 2027.08 (expected)*
 
-- 2023.09 - 2027.08 (Expected), **Ph.D. in Computer Science**, School of Computing and Data Science, HKU.
+- **B.Sc. in Mathematics and Decision Analytics**, School of Computing and Data Science, HKU  
+  *2018.09 – 2023.01*
 
-- 2018.09 - 2023.01, **B.Sc. in Mathematics and Decision Analytics**, School of Computing and Data Science, HKU.
-
-- 2015.01 - 2018.06, **5 A*s in GCE A-Level**, Cambridge International Exam Center in Shanghai Experimental School, Shanghai. 
+<!-- - 2015.01 - 2018.06, **5 A*s in GCE A-Level**, Cambridge International Exam Center in Shanghai Experimental School, Shanghai.  -->
 
 
 # 🎖 Honors and Awards
 <ul>
-  <li><div style="display: flex;"><div style="width: 100px;">2023 - 2027</div><div>HKU Postgraduate Scholarship</div></div></li>
-  <li><div style="display: flex;"><div style="width: 100px;">2023</div><div>First Class Honors</div></div></li>
-  <li><div style="display: flex;"><div style="width: 100px;">2020 - 2021</div><div>Yu Kam Tim Chan Siu Hing Award in Artificial Intelligence and Data Science</div></div></li>
-  <li><div style="display: flex;"><div style="width: 100px;">2018 - 2022</div><div>HKU Foundation Entrance Scholarship</div></div></li>
-  <li><div style="display: flex;"><div style="width: 100px;">2019 & 2022</div><div>Dean’s Honors List</div></div></li>
-  <li><div style="display: flex;"><div style="width: 100px;">2017 - 2018</div><div>First prize in the MOMENTUM Social Innovation Contest</div></div></li>
+  <li>
+    <div style="display: flex;">
+      <div style="width: 110px;">2023–2027</div>
+      <div>HKU Postgraduate Scholarship</div>
+    </div>
+  </li>
+  <li>
+    <div style="display: flex;">
+      <div style="width: 110px;">2023</div>
+      <div>First Class Honors</div>
+    </div>
+  </li>
+  <li>
+    <div style="display: flex;">
+      <div style="width: 110px;">2020–2021</div>
+      <div>Yu Kam Tim Chan Siu Hing Award in Artificial Intelligence and Data Science</div>
+    </div>
+  </li>
+  <li>
+    <div style="display: flex;">
+      <div style="width: 110px;">2018–2022</div>
+      <div>HKU Foundation Entrance Scholarship</div>
+    </div>
+  </li>
+  <li>
+    <div style="display: flex;">
+      <div style="width: 110px;">2019–2022</div>
+      <div>Dean’s Honors List</div>
+    </div>
+  </li>
+  <li>
+    <div style="display: flex;">
+      <div style="width: 110px;">2017–2018</div>
+      <div>First Prize, MOMENTUM Social Innovation Contest</div>
+    </div>
+  </li>
 </ul>
 
-[//]: # (# 🎖 Honors and Awards)
-
-[//]: # (- *2023 - 2027* HKU Postgraduate Scholarship)
-
-[//]: # (- *2023* Dean’s Honors List)
-
-[//]: # (- *2020 - 2021* Yu Kam Tim Chan Siu Hing Award in Artificial Intelligence and Data Science)
-
-[//]: # (- *2018 - 2022* HKU Foundation Entrance Scholarship)
-
-[//]: # (- *2019 & 2022* Dean’s Honors List)
-
-[//]: # (- *2017 - 2018* First prize in the MOMENTUM Social Innovation Contest )
-
-[//]: # ()
 
 [//]: # (# 💬 Invited Talks)
 
@@ -112,13 +224,3 @@ redirect_from:
 
 [//]: # (- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]]&#40;https://github.com/&#41;)
 
-[//]: # (# 💻 Internship)
-
-[//]: # (- *2019.05 - 2020.02*, [Lorem]&#40;https://github.com/&#41;, China.)
-
-# 👩‍🏫 Teaching
-<ul>
-  <li><div style="display: flex;"><div style="width: 100px;">Fall 2024</div><div>Introduction to Database Management Systems (TA)</div></div></li>
-  <li><div style="display: flex;"><div style="width: 100px;">Spring 2024</div><div>Big Data Management (TA)</div></div></li>
-  <li><div style="display: flex;"><div style="width: 100px;">Fall 2020</div><div>Probability and Statistics I (TA)</div></div></li>
-</ul>
